@@ -1,20 +1,86 @@
 {
-    "syncSettings.additionalFiles": [],
-    "workbench.activityBar.location": "top",
-    "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "MacOS Modern Light - Ventura Xcode Default",
+    // UI Preferences
     "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontWeight": 500,
     "editor.renderWhitespace": "all",
-    "workbench.preferredDarkColorTheme": "MacOS Modern Dark - Ventura Xcode Default",
-    "workbench.preferredLightColorTheme": "MacOS Modern Light - Ventura Xcode Default",
-    "workbench.iconTheme": null,
-    "workbench.startupEditor": "none",
-    "files.autoSave": "afterDelay",
-    "window.autoDetectColorScheme": true,
     "editor.guides.bracketPairs": "active",
     "editor.minimap.enabled": false,
-    "editor.rulers": [
-        80
-    ],
-    "workbench.editor.tabActionLocation": "left"
+    "editor.rulers": [80],
+    "editor.colorDecorators": false,
+    "editor.tabSize": 2,
+    "editor.lineHeight": 2,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "files.autoSave": "afterDelay",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "window.autoDetectColorScheme": true,
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Flow MacOS Light",
+    "workbench.preferredDarkColorTheme": "Flow MacOS Dark",
+    "workbench.preferredLightColorTheme": "Flow MacOS Light",
+    "workbench.iconTheme": null,
+    "workbench.startupEditor": "none",
+    "workbench.editor.tabActionLocation": "left",
+
+    // Extension settings
+    "color-highlight.markerType": "dot-before",
+    "syncSettings.additionalFiles": [],
+
+    // Language specific settings
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.formatOnType": true
+    },
+    "[json]": {
+        "editor.tabSize": 4
+    },
+    "[markdown]": {
+        "editor.autoClosingBrackets": "never",
+        "files.trimTrailingWhitespace": false
+    },
+    "[restructuredtext]": {
+        "files.trimTrailingWhitespace": false
+    },
+
+    // Launch settings
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Python: Current File (Workspace path)",
+                "type": "python",
+                "request": "launch",
+                "program": "${file}",
+                "console": "internalConsole",
+                "justMyCode": true,
+                "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+                }
+            },
+            {
+                "name": "Python: Current File (File path)",
+                "type": "python",
+                "request": "launch",
+                "program": "${file}",
+                "console": "internalConsole",
+                "justMyCode": true,
+                "env": {
+                    "PYTHONPATH": "${fileDirname}"
+                }
+            },
+            {
+                "name": "Node.js (brew): Current File",
+                "type": "node",
+                "request": "launch",
+                "skipFiles": [
+                    "<node_internals>/**"
+                ],
+                "program": "${file}",
+                "runtimeExecutable": "/opt/homebrew/bin/node",
+            },
+        ]
+    },
+
+    // Unfiled
 }
