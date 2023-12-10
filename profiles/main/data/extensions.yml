@@ -1,4 +1,8 @@
 disabled: []
 enabled:
+  - id: dez64ru.macos-modern-theme
+    uuid: 38ad76ae-2cd0-4962-8c5f-eb6b138b0ca3
+  - id: SirTori.indenticator
+    uuid: fcbdb08e-4048-40e8-a674-fecc476f4b93
   - id: zokugun.cron-tasks
     uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea

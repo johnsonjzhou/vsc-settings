@@ -1,3 +1,19 @@
 {
-    "syncSettings.additionalFiles": []
+    "syncSettings.additionalFiles": [],
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "MacOS Modern Light - Ventura Xcode Default",
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.renderWhitespace": "all",
+    "workbench.preferredDarkColorTheme": "MacOS Modern Dark - Ventura Xcode Default",
+    "workbench.preferredLightColorTheme": "MacOS Modern Light - Ventura Xcode Default",
+    "workbench.iconTheme": null,
+    "workbench.startupEditor": "none",
+    "files.autoSave": "afterDelay",
+    "window.autoDetectColorScheme": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        80
+    ]
 }
