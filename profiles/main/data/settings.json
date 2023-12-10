@@ -3,12 +3,14 @@
     "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontWeight": 500,
     "editor.renderWhitespace": "all",
-    "editor.guides.bracketPairs": "active",
     "editor.minimap.enabled": false,
     "editor.rulers": [80],
     "editor.colorDecorators": false,
     "editor.tabSize": 2,
     "editor.lineHeight": 2,
+    "editor.renderLineHighlight": "all",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.guides.bracketPairsHorizontal": false,
     "diffEditor.ignoreTrimWhitespace": true,
     "files.autoSave": "afterDelay",
     "files.trimFinalNewlines": true,
@@ -18,15 +20,20 @@
     "window.autoDetectColorScheme": true,
     "workbench.activityBar.location": "top",
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Flow MacOS Dark",
+    "workbench.colorTheme": "Flow MacOS Light",
     "workbench.preferredDarkColorTheme": "Flow MacOS Dark",
     "workbench.preferredLightColorTheme": "Flow MacOS Light",
     "workbench.iconTheme": null,
     "workbench.startupEditor": "none",
     "workbench.editor.tabActionLocation": "left",
+    "workbench.fontAliasing": "antialiased",
 
     // Extension settings
     "color-highlight.markerType": "dot-before",
+    "indenticator.width": 1,
+    "indenticator.style": "solid",
+    "indenticator.color.light": "#fcb828",
+    "indenticator.color.dark": "#fcb828",
     "syncSettings.additionalFiles": [],
 
     // Language specific settings
@@ -83,5 +90,5 @@
                 "runtimeExecutable": "/opt/homebrew/bin/node",
             },
         ]
-    }
+    },
 }

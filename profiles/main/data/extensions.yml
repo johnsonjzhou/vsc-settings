@@ -6,5 +6,7 @@ enabled:
     uuid: null
   - id: naumovs.color-highlight
     uuid: 121396ad-85a1-45ec-9fd1-d95028a847f5
+  - id: SirTori.indenticator
+    uuid: fcbdb08e-4048-40e8-a674-fecc476f4b93
   - id: zokugun.cron-tasks
     uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
