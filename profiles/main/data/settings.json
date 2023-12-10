@@ -13,10 +13,12 @@
     "files.autoSave": "afterDelay",
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "editor.fontLigatures": true,
+    "git.autofetch": true,
     "window.autoDetectColorScheme": true,
     "workbench.activityBar.location": "top",
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Flow MacOS Light",
+    "workbench.colorTheme": "Flow MacOS Dark",
     "workbench.preferredDarkColorTheme": "Flow MacOS Dark",
     "workbench.preferredLightColorTheme": "Flow MacOS Light",
     "workbench.iconTheme": null,
@@ -52,10 +54,10 @@
                 "type": "python",
                 "request": "launch",
                 "program": "${file}",
-                "console": "internalConsole",
+                "console": "integratedTerminal",
                 "justMyCode": true,
                 "env": {
-                "PYTHONPATH": "${workspaceFolder}"
+                    "PYTHONPATH": "${workspaceFolder}"
                 }
             },
             {
@@ -63,7 +65,7 @@
                 "type": "python",
                 "request": "launch",
                 "program": "${file}",
-                "console": "internalConsole",
+                "console": "integratedTerminal",
                 "justMyCode": true,
                 "env": {
                     "PYTHONPATH": "${fileDirname}"
@@ -77,10 +79,9 @@
                     "<node_internals>/**"
                 ],
                 "program": "${file}",
+                "console": "integratedTerminal",
                 "runtimeExecutable": "/opt/homebrew/bin/node",
             },
         ]
-    },
-
-    // Unfiled
+    }
 }
