@@ -17,6 +17,7 @@
     "files.trimTrailingWhitespace": true,
     "editor.fontLigatures": true,
     "git.autofetch": true,
+    "git.confirmSync": false,
     "window.autoDetectColorScheme": true,
     "workbench.activityBar.location": "top",
     "workbench.sideBar.location": "right",
@@ -30,6 +31,7 @@
 
     // Extension settings
     "color-highlight.markerType": "dot-before",
+    "color-highlight.markRuler": false,
     "indenticator.width": 1,
     "indenticator.style": "solid",
     "indenticator.color.light": "#fcb828",
@@ -91,5 +93,4 @@
             },
         ]
     },
-    "git.confirmSync": false,
 }
