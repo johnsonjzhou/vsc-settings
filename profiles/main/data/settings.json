@@ -2,12 +2,12 @@
     // UI Preferences
     "editor.fontFamily": "'Liga SFMono Nerd Font', 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontWeight": 500,
-    "editor.renderWhitespace": "all",
+    "editor.lineHeight": 1.6,
     "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
     "editor.rulers": [80],
     "editor.colorDecorators": false,
     "editor.tabSize": 2,
-    "editor.lineHeight": 2,
     "editor.renderLineHighlight": "all",
     "editor.bracketPairColorization.enabled": false,
     "editor.guides.bracketPairsHorizontal": false,
@@ -20,14 +20,15 @@
     "git.confirmSync": false,
     "window.autoDetectColorScheme": true,
     "workbench.activityBar.location": "top",
+    "workbench.fontAliasing": "antialiased",
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Flow MacOS Light",
-    "workbench.preferredDarkColorTheme": "Flow MacOS Dark",
-    "workbench.preferredLightColorTheme": "Flow MacOS Light",
+    "workbench.colorTheme": "Flow MacOS Light Mono Calm",
+    "workbench.preferredDarkColorTheme": "Flow MacOS Dark Mono Calm",
+    "workbench.preferredLightColorTheme": "Flow MacOS Light Mono Calm",
     "workbench.iconTheme": null,
     "workbench.startupEditor": "none",
     "workbench.editor.tabActionLocation": "left",
-    "workbench.fontAliasing": "antialiased",
+
 
     // Extension settings
     "color-highlight.markerType": "dot-before",
@@ -35,7 +36,7 @@
     "indenticator.width": 1,
     "indenticator.style": "solid",
     "indenticator.color.light": "#fcb828",
-    "indenticator.color.dark": "#fcb828",
+    "indenticator.color.dark": "#b99a01",
     "syncSettings.additionalFiles": [],
 
     // Language specific settings
@@ -93,5 +94,4 @@
             },
         ]
     },
-    "editor.fontSize": 13,
 }
