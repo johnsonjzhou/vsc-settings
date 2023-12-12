@@ -59,7 +59,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   es\",\"isBuiltin\":true,\"views\":[]}]"
 workbench.activityBar.location: top
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["shellscript",true],["ignore",true],["pip-requirements",true],["python",true],["javascript",true],["markdown",true],["restructuredtext",true],["plaintext",true],["jsonc",true],["json",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["shellscript",true],["ignore",true],["pip-requirements",true],["python",true],["markdown",true],["jsonc",true],["json",true],["javascript",true],["plaintext",true],["restructuredtext",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
