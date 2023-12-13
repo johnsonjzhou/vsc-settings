@@ -1,9 +1,9 @@
 {
     // UI Preferences
     "editor.fontFamily": "'Liga SFMono Nerd Font', 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
     "editor.fontWeight": 500,
     "editor.lineHeight": 1.6,
-    "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
     "editor.rulers": [80],
     "editor.colorDecorators": false,
@@ -11,13 +11,19 @@
     "editor.renderLineHighlight": "all",
     "editor.bracketPairColorization.enabled": false,
     "editor.guides.bracketPairsHorizontal": false,
+    "editor.minimap.autohide": true,
     "diffEditor.ignoreTrimWhitespace": true,
     "files.autoSave": "afterDelay",
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "editor.fontLigatures": true,
     "git.autofetch": true,
     "git.confirmSync": false,
+    "scm.defaultViewMode": "tree",
+    "scm.diffDecorationsGutterPattern": {
+        "modified": false
+    },
+    "terminal.integrated.lineHeight": 1.1,
+    "terminal.integrated.letterSpacing": 1.05,
     "window.autoDetectColorScheme": true,
     "workbench.activityBar.location": "top",
     "workbench.fontAliasing": "antialiased",
@@ -94,4 +100,5 @@
             },
         ]
     },
+
 }

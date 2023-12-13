@@ -1,11 +1,13 @@
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"order":0},{"id":"workbench.view.search","pinned":true,"order":1},{"id":"workbench.view.scm","pinned":true,"order":2},{"id":"workbench.view.debug","pinned":true,"order":3},{"id":"terminal","pinned":true,"order":3},{"id":"workbench.view.remote","pinned":true,"order":4},{"id":"workbench.view.extension.test","pinned":true,"order":6},{"id":"workbench.view.extensions","pinned":true,"order":4},{"id":"workbench.view.extension.references-view","pinned":true,"order":7},{"id":"workbench.view.extension.jupyter","pinned":true,"order":8},{"id":"workbench.panel.chatSidebar","pinned":true,"order":100},{"id":"userDataProfiles","pinned":true}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"order":0},{"id":"workbench.views.service.sidebar.36572671-c013-43a3-bad7-4c0675656bb4","pinned":true},{"id":"workbench.view.search","pinned":true,"order":1},{"id":"workbench.view.scm","pinned":true,"order":2},{"id":"workbench.view.debug","pinned":true,"order":3},{"id":"terminal","pinned":true,"order":3},{"id":"workbench.view.remote","pinned":true,"order":4},{"id":"workbench.view.extension.test","pinned":true,"order":6},{"id":"workbench.view.extensions","pinned":true,"order":4},{"id":"workbench.view.extension.references-view","pinned":true,"order":7},{"id":"workbench.view.extension.jupyter","pinned":true,"order":8},{"id":"workbench.panel.chatSidebar","pinned":true,"order":100},{"id":"userDataProfiles","pinned":true}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
-  in\":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"\
-  npm:showScriptExplorer\"}]},{\"id\":\"workbench.view.search\",\"themeIcon\":{\
-  \"id\":\"search-view-icon\"},\"name\":\"Search\",\"isBuiltin\":true,\"views\"\
-  :[{}]},{\"id\":\"workbench.view.scm\",\"themeIcon\":{\"id\":\"source-control-\
-  view-icon\"},\"name\":\"Source
+  in\":true,\"views\":[{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"npm\
+  :showScriptExplorer\"}]},{\"id\":\"workbench.views.service.sidebar.36572671-c\
+  013-43a3-bad7-4c0675656bb4\",\"themeIcon\":{\"id\":\"outline-view-icon\"},\"n\
+  ame\":\"Outline\",\"isBuiltin\":true,\"views\":[{}]},{\"id\":\"workbench.view\
+  .search\",\"themeIcon\":{\"id\":\"search-view-icon\"},\"name\":\"Search\",\"i\
+  sBuiltin\":true,\"views\":[{}]},{\"id\":\"workbench.view.scm\",\"themeIcon\":{\
+  \"id\":\"source-control-view-icon\"},\"name\":\"Source
   Control\",\"isBuiltin\":true,\"views\":[{\"when\":\"scm.providerCount &&
   scm.providerCount !=
   '0'\"},{}]},{\"id\":\"workbench.view.debug\",\"themeIcon\":{\"id\":\"run-view\
@@ -59,7 +61,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   es\",\"isBuiltin\":true,\"views\":[]}]"
 workbench.activityBar.location: top
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["shellscript",true],["ignore",true],["pip-requirements",true],["markdown",true],["restructuredtext",true],["python",true],["json",true],["plaintext",true],["jsonc",true],["javascript",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["shellscript",true],["markdown",true],["json",true],["pip-requirements",true],["ignore",true],["python",true],["restructuredtext",true],["plaintext",true],["javascript",true],["jsonc",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
@@ -85,4 +87,5 @@ workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","is
 workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
 workbench.views.extensions.installed.size: "12"
+workbench.views.service.sidebar.36572671-c013-43a3-bad7-4c0675656bb4.state.hidden: '[{"id":"outline","isHidden":false}]'
 zokugun.cron-tasks: '{"version":"0.1.2"}'
