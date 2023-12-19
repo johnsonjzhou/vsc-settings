@@ -2,8 +2,6 @@ disabled:
   - id: SirTori.indenticator
     uuid: fcbdb08e-4048-40e8-a674-fecc476f4b93
 enabled:
-  - id: dez64ru.macos-modern-theme
-    uuid: 38ad76ae-2cd0-4962-8c5f-eb6b138b0ca3
   - id: johnsonjzhou.flow-theme
     uuid: null
   - id: ms-python.python
@@ -23,4 +21,4 @@ enabled:
   - id: njpwerner.autodocstring
     uuid: 2d6fea35-f68e-461d-9b7b-5cd05be99451
   - id: zokugun.cron-tasks
-    uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
+    uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
