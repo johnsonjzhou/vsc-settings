@@ -3,6 +3,7 @@
     "editor.fontFamily": "'Liga SFMono Nerd Font', 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontWeight": 500,
+    "editor.fontSize": 12,
     "editor.lineHeight": 1.6,
     "editor.renderWhitespace": "all",
     "editor.rulers": [80],
@@ -21,6 +22,11 @@
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
     "git.confirmSync": false,
+    "notebook.cellToolbarLocation": {
+        "default": "left"
+    },
+    "notebook.insertFinalNewline": true,
+    "notebook.lineNumbers": "on",
     "scm.defaultViewMode": "tree",
     "scm.diffDecorationsGutterPattern": {
         "modified": false
@@ -49,6 +55,7 @@
     "syncSettings.additionalFiles": [],
 
     // Language specific settings
+    "python.languageServer": "Jedi",
     "[python]": {
         "editor.tabSize": 4,
         "editor.formatOnType": true

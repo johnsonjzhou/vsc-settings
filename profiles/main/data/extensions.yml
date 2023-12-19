@@ -18,6 +18,8 @@ enabled:
     uuid: e153ca70-b543-4865-b4c5-b31d34185948
   - id: naumovs.color-highlight
     uuid: 121396ad-85a1-45ec-9fd1-d95028a847f5
+  - id: njpwerner.autodocstring
+    uuid: 2d6fea35-f68e-461d-9b7b-5cd05be99451
   - id: SirTori.indenticator
     uuid: fcbdb08e-4048-40e8-a674-fecc476f4b93
   - id: zokugun.cron-tasks
