@@ -18,6 +18,8 @@
     "editor.minimap.scale": 1,
     "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 80,
     "diffEditor.ignoreTrimWhitespace": true,
     "files.autoSave": "afterDelay",
     "files.trimFinalNewlines": true,
@@ -34,19 +36,19 @@
         "modified": false
     },
     "telemetry.telemetryLevel": "off",
+    "terminal.integrated.inheritEnv": false,
     "terminal.integrated.lineHeight": 1.1,
     "terminal.integrated.letterSpacing": 1.05,
     "window.autoDetectColorScheme": true,
     "workbench.activityBar.location": "top",
+    "workbench.editor.tabActionLocation": "left",
     "workbench.fontAliasing": "antialiased",
-    "workbench.sideBar.location": "right",
     "workbench.colorTheme": "Flow MacOS Light Mono Calm",
     "workbench.preferredDarkColorTheme": "Flow MacOS Dark Mono Calm",
     "workbench.preferredLightColorTheme": "Flow MacOS Light Mono Calm",
     "workbench.iconTheme": null,
+    "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
-    "workbench.editor.tabActionLocation": "left",
-
 
     // Extension settings
     "color-highlight.markerType": "dot-before",
