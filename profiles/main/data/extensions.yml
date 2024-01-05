@@ -1,9 +1,15 @@
-disabled:
-  - id: SirTori.indenticator
-    uuid: fcbdb08e-4048-40e8-a674-fecc476f4b93
+disabled: []
 enabled:
+  - id: aaron-bond.better-comments
+    uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
+  - id: alefragnani.Bookmarks
+    uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
+  - id: amirHA.better-comments-2
+    uuid: 926ce728-91d1-4964-b83d-ea58f1c71116
   - id: johnsonjzhou.flow-theme
     uuid: null
+  - id: ms-python.autopep8
+    uuid: 5a21b0c3-89ca-46dd-8ada-658518fb94a5
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: ms-toolsai.jupyter
@@ -20,5 +26,11 @@ enabled:
     uuid: 121396ad-85a1-45ec-9fd1-d95028a847f5
   - id: njpwerner.autodocstring
     uuid: 2d6fea35-f68e-461d-9b7b-5cd05be99451
+  - id: ryu1kn.text-marker
+    uuid: ab840a62-e128-4f36-8587-2e52f4eecc06
+  - id: SirTori.indenticator
+    uuid: fcbdb08e-4048-40e8-a674-fecc476f4b93
+  - id: tomoki1207.pdf
+    uuid: 4386e6f6-ec10-4463-9d23-c24278718947
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
