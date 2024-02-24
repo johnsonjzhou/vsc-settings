@@ -13,8 +13,8 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.guides.bracketPairsHorizontal": false,
     "editor.minimap.autohide": false,
-    "editor.minimap.enabled": true,
     "editor.minimap.showSlider": "always",
+    "editor.minimap.renderCharacters": false,
     "editor.minimap.scale": 1,
     "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.verticalScrollbarSize": 0,
@@ -42,9 +42,8 @@
     "window.autoDetectColorScheme": true,
     "workbench.activityBar.location": "top",
     "workbench.editor.tabActionLocation": "left",
-    "workbench.fontAliasing": "antialiased",
-    "workbench.colorTheme": "Flow MacOS Light Mono Calm",
-    "workbench.preferredDarkColorTheme": "Flow MacOS Dark Mono Calm",
+    "workbench.colorTheme": "Flow MacOS Github Dark",
+    "workbench.preferredDarkColorTheme": "Flow MacOS Github Dark",
     "workbench.preferredLightColorTheme": "Flow MacOS Light Mono Calm",
     "workbench.iconTheme": null,
     "workbench.sideBar.location": "right",
@@ -67,6 +66,12 @@
         },
         {
             "tag": "fixme",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "deprecate",
             "color": "#FF2D00",
             "strikethrough": false,
             "backgroundColor": "transparent"
@@ -108,15 +113,16 @@
             "backgroundColor": "transparent"
         },
         {
-            "tag": "*",
-            "color": "#98C379",
+            "tag": "note",
+            "color": "#af52de",
             "strikethrough": false,
             "backgroundColor": "transparent"
         },
     ],
+    "textmarker.autoSelectDistinctiveTextColor": true,
 
     // Language specific settings
-    "python.languageServer": "Jedi",
+    "python.languageServer": "Pylance",
     "terminal.integrated.env.osx": {
         "PYTHONPATH": "${workspaceFolder}"
     },
@@ -142,18 +148,18 @@
         "configurations": [
             {
                 "name": "Python: Current File (Workspace path)",
-                "type": "python",
+                "type": "debugpy",
                 "request": "launch",
                 "program": "${file}",
                 "console": "integratedTerminal",
                 "justMyCode": true,
                 "env": {
-                    "PYTHONPATH": "${workspaceFolder}"
+                    "PYTHONPATH": "${workspaceFolder}",
                 }
             },
             {
                 "name": "Python: Current File (File path)",
-                "type": "python",
+                "type": "debugpy",
                 "request": "launch",
                 "program": "${file}",
                 "console": "integratedTerminal",
