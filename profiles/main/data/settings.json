@@ -26,11 +26,14 @@
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
     "git.confirmSync": false,
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "notebook.cellFocusIndicator": "border",
     "notebook.cellToolbarLocation": {
         "default": "left"
     },
     "notebook.insertFinalNewline": true,
     "notebook.lineNumbers": "on",
+    "notebook.output.scrolling": true,
     "scm.defaultViewMode": "tree",
     "scm.diffDecorationsGutterPattern": {
         "modified": false
@@ -41,6 +44,7 @@
     "terminal.integrated.letterSpacing": 1.05,
     "window.autoDetectColorScheme": true,
     "workbench.activityBar.location": "top",
+    "workbench.editor.centeredLayoutFixedWidth": true,
     "workbench.editor.tabActionLocation": "left",
     "workbench.colorTheme": "Flow MacOS Github Dark",
     "workbench.preferredDarkColorTheme": "Flow MacOS Github Dark",
@@ -56,22 +60,30 @@
     "todo-tree.general.tags": [
         "FIXME",
         "TODO",
+        "@deprecate"
     ],
     "todo-tree.highlights.customHighlight": {
         "TODO": {
-            "icon": "issue-draft",
+            "icon": "checklist",
             "iconColour": "#ffa500",
             "background": "#ffa500",
             "foreground": "#FFF",
             "type": "text-and-comment"
         },
         "FIXME": {
-            "icon": "flame",
+            "icon": "bug",
             "iconColor": "#ff0000",
             "background": "#ff0000",
             "foreground": "#FFF",
             "type": "text-and-comment"
         },
+        "@deprecate": {
+            "icon": "trash",
+            "iconColor": "#ff0000",
+            "background": "#ff0000",
+            "foreground": "#FFF",
+            "type": "text-and-comment"
+        }
     },
     "todo-tree.general.showActivityBarBadge": true,
     "todo-tree.general.debug": true,
@@ -137,6 +149,8 @@
             },
         ]
     },
+
+
 
 
 }
