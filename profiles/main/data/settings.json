@@ -60,28 +60,44 @@
     "todo-tree.general.tags": [
         "FIXME",
         "TODO",
+        "NOTE",
+        "MARK",
         "@deprecate"
     ],
     "todo-tree.highlights.customHighlight": {
         "TODO": {
             "icon": "checklist",
             "iconColour": "#ffa500",
-            "background": "#ffa500",
-            "foreground": "#FFF",
+            "background": "#ffa50020",
+            "foreground": "#ffa500",
             "type": "text-and-comment"
         },
         "FIXME": {
             "icon": "bug",
             "iconColor": "#ff0000",
-            "background": "#ff0000",
-            "foreground": "#FFF",
+            "background": "#ff000020",
+            "foreground": "#ff0000",
+            "type": "text-and-comment"
+        },
+        "NOTE": {
+            "icon": "lightbulb",
+            "iconColor": "#2dd26f",
+            "background": "#2dd26f20",
+            "foreground": "#2dd26f",
+            "type": "text-and-comment"
+        },
+        "MARK": {
+            "icon": "notebook",
+            "iconColor": "#2dd26f",
+            "background": "#2dd26f20",
+            "foreground": "#2dd26f",
             "type": "text-and-comment"
         },
         "@deprecate": {
             "icon": "trash",
             "iconColor": "#ff0000",
-            "background": "#ff0000",
-            "foreground": "#FFF",
+            "background": "#ff000020",
+            "foreground": "#ff0000",
             "type": "text-and-comment"
         }
     },
@@ -149,6 +165,12 @@
             },
         ]
     },
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "markdown.preview.fontSize": 18,
+    "jupyter.askForKernelRestart": false,
 
 
 
