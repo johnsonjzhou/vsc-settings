@@ -10,7 +10,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   3.5.0/images/bookmark-activity-bar.svg\",\"scheme\":\"file\"},\"name\":\"Book\
   marks\",\"isBuiltin\":false,\"views\":[{},{}]},{\"id\":\"workbench.view.exten\
   sion.latex-workshop-activitybar\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENS\
-  ION_DATA_PATH%%/james-yu.latex-workshop-9.20.0/icons/activity-bar.svg\",\"sch\
+  ION_DATA_PATH%%/james-yu.latex-workshop-9.20.1/icons/activity-bar.svg\",\"sch\
   eme\":\"file\"},\"name\":\"LaTeX\",\"isBuiltin\":false,\"views\":[{\"when\":\
   \"latex-workshop:enabled\"},{\"when\":\"latex-workshop:enabled\"},{\"when\":\
   \"latex-workshop:enabled\"}]},{\"id\":\"workbench.view.extension.todo-tree-co\
@@ -99,7 +99,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   ]"
 workbench.activityBar.location: top
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["tex",true],["latex",true],["json",true],["javascript",true],["ignore",true],["shellscript",true],["pip-requirements",true],["markdown",true],["plaintext",true],["csv",true],["python",true],["jsonc",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["tex",true],["latex",true],["json",true],["javascript",true],["ignore",true],["shellscript",true],["pip-requirements",true],["markdown",true],["jsonc",true],["csv",true],["plaintext",true],["python",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"actionComments","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: left
@@ -114,7 +114,7 @@ workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon"
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
 workbench.panel.size: "423"
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false}]'
-workbench.sideBar.size: "572"
+workbench.sideBar.size: "612"
 workbench.statusbar.hidden: '["status.workspaceTrust.1702167078983","status.workspaceTrust.1702169444231","status.workspaceTrust.21de83ffcd4a04396155275e9d69599f","status.workspaceTrust.1702172927228","status.workspaceTrust.1702172949305","status.workspaceTrust.1702173136426","status.workspaceTrust.1702173517853","status.workspaceTrust.23646ba4e4684102911bd1dcd60be1d3","status.workspaceTrust.1702175266499","status.workspaceTrust.d6ef6f7ffc7d976fdb964633064c6a33","status.workspaceTrust.5ad04b2c860b390c88a256b2a5fc9d36","status.workspaceTrust.87c2acf6f72cea795003b2f3fc9d7e2e","status.workspaceTrust.d403728191aee8dc55fd792fac1bc58b","status.workspaceTrust.1702208069596","status.workspaceTrust.30d78eb29e7828fff0ffbe7be2399b57","status.workspaceTrust.6e30577715ab9067c109d2930b169422","status.workspaceTrust.1702382261384","status.workspaceTrust.49651dc80cf5165e469f0f58359bdb0d","status.workspaceTrust.1702772073997","status.workspaceTrust.1702772478683","status.workspaceTrust.1702772700488","status.workspaceTrust.7968deb41078b949721269e4c19343ef","status.workspaceTrust.cc8f5350a2521e916301dee0729d137d","status.workspaceTrust.1702964978524","status.workspaceTrust.1703028455819","status.workspaceTrust.1703029320955","status.workspaceTrust.83a909d20c508cb2eabf27b400bbf832","status.host","status.forwardedPorts","status.workspaceTrust.1703225401540","status.workspaceTrust.1703641207513","status.workspaceTrust.f378571cfd10b9827907237f77be155c","status.workspaceTrust.c47099a1077c90094686d3a29424a4d0","status.workspaceTrust.c1cc10b653c194e8e88ea2036453085c","status.workspaceTrust.564df0d78120a8f161c5f0ec14d06d68","status.workspaceTrust.1703746734267","status.workspaceTrust.b4b397ce728aa7306b5fddea19250eff","status.workspaceTrust.687ebed771e655aa8840c5d86b240480","status.workspaceTrust.1704062096069","status.workspaceTrust.1704371239767","status.workspaceTrust.cd3d79882d5d370312fc41e4c364374e","status.workspaceTrust.1705200652046","status.workspaceTrust.dd409a3ba4568d5659bb824a2c3a4464","status.workspaceTrust.57a47bbc81013bd7f7529210d9644f66","status.workspaceTrust.ebe0409798ef74f1786a445f59314d37","status.workspaceTrust.1708750608903","status.workspaceTrust.1708816308818","status.workspaceTrust.1709034779791"]'
 workbench.telemetryOptOutShown: "true"
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"NOTEBOOK_VARIABLES","isHidden":false}]'
