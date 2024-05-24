@@ -26,7 +26,13 @@
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
     "git.confirmSync": false,
+    "jupyter.askForKernelRestart": false,
     "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "markdown.preview.fontSize": 18,
     "notebook.cellFocusIndicator": "border",
     "notebook.cellToolbarLocation": {
         "default": "left"
@@ -57,53 +63,44 @@
     "color-highlight.markerType": "dot-before",
     "color-highlight.markRuler": false,
     "syncSettings.additionalFiles": [],
-    "todo-tree.general.tags": [
-        "FIXME",
-        "TODO",
-        "NOTE",
-        "MARK",
-        "@deprecate"
+    "better-comments.tags": [
+        {
+            "tag": "fixme",
+            "color": "#ff0000",
+            "strikethrough": false,
+            "backgroundColor": "#ff000020"
+        },
+        {
+            "tag": "mark: fixme",
+            "color": "#ff0000",
+            "strikethrough": false,
+            "backgroundColor": "#ff000020"
+        },
+        {
+            "tag": "todo",
+            "color": "#ffa500",
+            "strikethrough": false,
+            "backgroundColor": "#ffa50020"
+        },
+        {
+            "tag": "mark: todo",
+            "color": "#ffa500",
+            "strikethrough": false,
+            "backgroundColor": "#ffa50020"
+        },
+        {
+            "tag": "mark:",
+            "color": "#2dd26f",
+            "strikethrough": false,
+            "backgroundColor": "#2dd26f20"
+        },
+        {
+            "tag": "note:",
+            "color": "#2dd26f",
+            "strikethrough": false,
+            "backgroundColor": "#2dd26f20"
+        },
     ],
-    "todo-tree.highlights.customHighlight": {
-        "TODO": {
-            "icon": "checklist",
-            "iconColour": "#ffa500",
-            "background": "#ffa50020",
-            "foreground": "#ffa500",
-            "type": "text-and-comment"
-        },
-        "FIXME": {
-            "icon": "bug",
-            "iconColor": "#ff0000",
-            "background": "#ff000020",
-            "foreground": "#ff0000",
-            "type": "text-and-comment"
-        },
-        "NOTE": {
-            "icon": "lightbulb",
-            "iconColor": "#2dd26f",
-            "background": "#2dd26f20",
-            "foreground": "#2dd26f",
-            "type": "text-and-comment"
-        },
-        "MARK": {
-            "icon": "notebook",
-            "iconColor": "#2dd26f",
-            "background": "#2dd26f20",
-            "foreground": "#2dd26f",
-            "type": "text-and-comment"
-        },
-        "@deprecate": {
-            "icon": "trash",
-            "iconColor": "#ff0000",
-            "background": "#ff000020",
-            "foreground": "#ff0000",
-            "type": "text-and-comment"
-        }
-    },
-    "todo-tree.general.showActivityBarBadge": true,
-    "todo-tree.general.debug": true,
-    "todo-tree.tree.showCurrentScanMode": false,
 
     // Language specific settings
     "python.languageServer": "Pylance",
@@ -165,14 +162,6 @@
             },
         ]
     },
-    "jupyter.widgetScriptSources": [
-        "jsdelivr.com",
-        "unpkg.com"
-    ],
-    "markdown.preview.fontSize": 18,
-    "jupyter.askForKernelRestart": false,
-
-
 
 
 }

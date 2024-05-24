@@ -1,13 +1,9 @@
-disabled:
+disabled: []
+enabled:
   - id: amirHA.better-comments-2
     uuid: 926ce728-91d1-4964-b83d-ea58f1c71116
-enabled:
-  - id: alefragnani.Bookmarks
-    uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
   - id: GitHub.github-vscode-theme
     uuid: 7328a705-91fc-49e6-8293-da6f112e482d
-  - id: Gruntfuggly.todo-tree
-    uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
   - id: James-Yu.latex-workshop
     uuid: 61d03280-3919-4dd1-bce1-178ca21fdeaf
   - id: johnsonjzhou.flow-theme
@@ -22,6 +18,8 @@ enabled:
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: ms-python.vscode-pylance
     uuid: 364d2426-116a-433a-a5d8-a5098dc3afbd
+  - id: ms-toolsai.datawrangler
+    uuid: de3960e6-b262-4565-8a1c-9870629f1ed9
   - id: ms-toolsai.jupyter
     uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
   - id: ms-toolsai.jupyter-keymap
