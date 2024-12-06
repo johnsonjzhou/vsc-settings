@@ -162,6 +162,36 @@
             },
         ]
     },
+    "cmake.showOptionsMovedNotification": false,
+    "notebook.editorOptionsCustomizations": {
+        "editor.tabSize": 4,
+        "editor.indentSize": 4,
+        "editor.insertSpaces": true
+    },
 
-
+    // Spartan HPC
+    // https://dashboard.hpc.unimelb.edu.au/software/vscode/
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "/apps/**": true,
+        "/data/gpfs/**": true,
+        "/data/projects/**": true,
+        "/data/cephfs/**": true,
+        "/data/scratch/**": true,
+        "/scratch/**": true
+    },
+    "search.followSymlinks": false,
+    "search.exclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "/apps/**": true,
+        "/data/gpfs/**": true,
+        "/data/projects/**": true,
+        "/data/cephfs/**": true,
+        "/data/scratch/**": true,
+        "/scratch/**": true
+    },
 }
