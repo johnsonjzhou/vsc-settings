@@ -14,6 +14,7 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.guides.bracketPairsHorizontal": false,
     "editor.minimap.autohide": false,
+    "editor.minimap.markSectionHeaderRegex": "\\b(MARK|TODO):\\s*(?<separator>-?)\\s*(?<label>.*)$",
     "editor.minimap.showSlider": "always",
     "editor.minimap.renderCharacters": false,
     "editor.minimap.scale": 1,
@@ -63,6 +64,7 @@
     // Extension settings
     "color-highlight.markerType": "dot-before",
     "color-highlight.markRuler": false,
+    "continue.telemetryEnabled": false,
     "syncSettings.additionalFiles": [],
     "better-comments.tags": [
         {
@@ -104,6 +106,7 @@
     ],
 
     // Language specific settings
+    "python.createEnvironment.trigger": "off",
     "python.languageServer": "Pylance",
     "terminal.integrated.env.osx": {
         "PYTHONPATH": "${workspaceFolder}"
@@ -250,6 +253,8 @@
           "*.nav",
       ],
     "latex-workshop.message.badbox.show": "none",
-    "python.createEnvironment.trigger": "off",
-    "editor.minimap.markSectionHeaderRegex": "\\b(MARK|TODO):\\s*(?<separator>-?)\\s*(?<label>.*)$",
+    // New
+
+
+
 }

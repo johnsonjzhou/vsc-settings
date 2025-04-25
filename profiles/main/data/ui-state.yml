@@ -116,7 +116,7 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chatEditing",
 workbench.auxiliaryBar.size: "170"
 workbench.chat.hideMovedChatWelcomeView: "true"
 workbench.editor.languageDetectionOpenedLanguages.global: '[["json",true],["properties",true],["csv",true],["dynamic
-  csv",true],["toml",true],["markdown",true],["ignore",true],["pip-requirements",true],["plaintext",true],["yaml",true],["jsonc",true],["python",true]]'
+  csv",true],["toml",true],["ignore",true],["plaintext",true],["yaml",true],["pip-requirements",true],["markdown",true],["python",true],["jsonc",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"actionComments","isHidden":false},{"id":"bookmarksExplorer","isHidden":false},{"id":"bookmarksHelpAndFeedback","isHidden":false},{"id":"todo-tree-view","isHidden":false},{"id":"codeium.chatPanelView","isHidden":false},{"id":"codeium.searchPanelView","isHidden":false},{"id":"github-actions.current-branch","isHidden":false},{"id":"github-actions.workflows","isHidden":false},{"id":"github-actions.settings","isHidden":false},{"id":"github-actions.empty-view","isHidden":false},{"id":"latex-workshop-commands","isHidden":false},{"id":"latex-workshop-structure","isHidden":false},{"id":"latex-workshop-snippet-view","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: left
