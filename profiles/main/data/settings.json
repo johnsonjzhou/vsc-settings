@@ -22,6 +22,7 @@
     "editor.scrollbar.verticalScrollbarSize": 0,
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 80,
+    "debug.inlineValues": "off",
     "diffEditor.ignoreTrimWhitespace": true,
     "files.autoSave": "afterDelay",
     "files.trimFinalNewlines": true,
@@ -64,6 +65,7 @@
     // Extension settings
     "color-highlight.markerType": "dot-before",
     "color-highlight.markRuler": false,
+    "continue.enableTabAutocomplete": true,
     "continue.telemetryEnabled": false,
     "syncSettings.additionalFiles": [],
     "better-comments.tags": [
@@ -253,6 +255,9 @@
           "*.nav",
       ],
     "latex-workshop.message.badbox.show": "none",
+    "workbench.editor.empty.hint": "hidden",
+    "python.analysis.typeCheckingMode": "standard",
+
     // New
 
 
