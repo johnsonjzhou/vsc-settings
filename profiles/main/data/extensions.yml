@@ -2,6 +2,10 @@ disabled: []
 enabled:
   - id: amirHA.better-comments-2
     uuid: 926ce728-91d1-4964-b83d-ea58f1c71116
+  - id: chouzz.vscode-better-align
+    uuid: f5a6ecde-96ce-4fde-8744-ab88c7727069
+  - id: Continue.continue
+    uuid: c8d442ab-9ee3-4891-a5b0-994f14f54c94
   - id: GitHub.github-vscode-theme
     uuid: 7328a705-91fc-49e6-8293-da6f112e482d
   - id: James-Yu.latex-workshop
@@ -20,10 +24,14 @@ enabled:
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: ms-python.vscode-pylance
     uuid: 364d2426-116a-433a-a5d8-a5098dc3afbd
+  - id: ms-python.vscode-python-envs
+    uuid: b41d8e8a-b6d4-4202-8f07-7189bdda81be
   - id: ms-toolsai.datawrangler
     uuid: de3960e6-b262-4565-8a1c-9870629f1ed9
   - id: ms-toolsai.jupyter
     uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
+  - id: ms-toolsai.jupyter-hub
+    uuid: d8506cab-9f63-4287-a3d7-a8fdb71fa371
   - id: ms-toolsai.jupyter-keymap
     uuid: 9f6dc8db-620c-4844-b8c5-e74914f1be27
   - id: ms-toolsai.jupyter-renderers
