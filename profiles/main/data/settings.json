@@ -13,14 +13,14 @@
     "editor.renderLineHighlight": "all",
     "editor.bracketPairColorization.enabled": false,
     "editor.guides.bracketPairsHorizontal": false,
-    "editor.minimap.autohide": false,
+    "editor.minimap.autohide": "none",
     "editor.minimap.markSectionHeaderRegex": "\\b(MARK|TODO):\\s*(?<separator>-?)\\s*(?<label>.*)$",
     "editor.minimap.showSlider": "always",
     "editor.minimap.renderCharacters": false,
     "editor.minimap.scale": 1,
     "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.verticalScrollbarSize": 0,
-    "editor.wordWrap": "bounded",
+    "editor.wordWrap": "off",
     "editor.wordWrapColumn": 80,
     "debug.inlineValues": "off",
     "diffEditor.ignoreTrimWhitespace": true,
@@ -63,7 +63,7 @@
     "workbench.startupEditor": "none",
 
     // Extension settings
-    "autoDocstring.docstringFormat": "google",
+    "autoDocstring.docstringFormat": "google-notypes",
     "color-highlight.markerType": "dot-before",
     "color-highlight.markRuler": false,
     "continue.enableTabAutocomplete": true,
@@ -107,10 +107,18 @@
             "backgroundColor": "#2dd26f20"
         },
     ],
+    "betterAlign.surroundSpace": {
+        "colon": [-1, 1], // For python, do not align : for type hints
+    },
 
     // Language specific settings
     "python.createEnvironment.trigger": "off",
     "python.languageServer": "Pylance",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
     "terminal.integrated.env.osx": {
         "PYTHONPATH": "${workspaceFolder}"
     },
@@ -170,11 +178,11 @@
                     "config_examples/symbol_classification_demo.toml",
                     "--output",
                     "output_examples",
-                    "--mea-type",
-                    "culture",
-                    "--mea-serial-number",
-                    "11111",
-                    "--auto-confirm",
+                    // "--mea-type",
+                    // "culture",
+                    // "--mea-serial-number",
+                    // "11111",
+                    // "--auto-confirm",
                     "symbol_classification/debugger"
                 ],
                 "console": "integratedTerminal",
@@ -315,8 +323,16 @@
       ],
     "latex-workshop.message.badbox.show": "none",
     "workbench.editor.empty.hint": "hidden",
-    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.typeCheckingMode": "standard",
     "diffEditor.renderSideBySide": false,
+    "telemetry.feedback.enabled": false,
+    "chat.agent.enabled": false,
+    "git.ignoreRebaseWarning": true,
+    "tabby.endpoint": "http://localhost:8868",
+    "tabby.config.telemetry": true,
+    "tabby.settings.advanced": {
+        "inlineCompletion.triggerMode": "manual"
+    },
 
     // New
 
