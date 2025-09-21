@@ -1,6 +1,8 @@
 {
     // UI Preferences
+    "chat.agent.enabled": false,
     "chat.commandCenter.enabled": false,
+    "chat.disableAIFeatures": true,
     "editor.fontFamily": "'Liga SFMono Nerd Font', 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontWeight": 500,
@@ -24,11 +26,13 @@
     "editor.wordWrapColumn": 80,
     "debug.inlineValues": "off",
     "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.renderSideBySide": false,
     "files.autoSave": "afterDelay",
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
     "git.confirmSync": false,
+    "git.ignoreRebaseWarning": true,
     "jupyter.askForKernelRestart": false,
     "jupyter.notebookFileRoot": "${workspaceFolder}",
     "jupyter.widgetScriptSources": [
@@ -47,13 +51,16 @@
     "scm.diffDecorationsGutterPattern": {
         "modified": false
     },
+    "telemetry.feedback.enabled": false,
     "telemetry.telemetryLevel": "off",
+    "terminal.integrated.fontLigatures.enabled": true,
     "terminal.integrated.inheritEnv": false,
     "terminal.integrated.lineHeight": 1.1,
     "terminal.integrated.letterSpacing": 1.05,
     "window.autoDetectColorScheme": true,
     "workbench.activityBar.location": "top",
     "workbench.editor.centeredLayoutFixedWidth": true,
+    "workbench.editor.empty.hint": "hidden",
     "workbench.editor.tabActionLocation": "left",
     "workbench.colorTheme": "Flow MacOS Github Dark",
     "workbench.preferredDarkColorTheme": "Flow MacOS Github Dark",
@@ -112,6 +119,7 @@
     },
 
     // Language specific settings
+    "python.analysis.typeCheckingMode": "standard",
     "python.createEnvironment.trigger": "off",
     "python.languageServer": "Pylance",
     "python.testing.pytestArgs": [
@@ -322,19 +330,6 @@
           "*.nav",
       ],
     "latex-workshop.message.badbox.show": "none",
-    "workbench.editor.empty.hint": "hidden",
-    "python.analysis.typeCheckingMode": "standard",
-    "diffEditor.renderSideBySide": false,
-    "telemetry.feedback.enabled": false,
-    "chat.agent.enabled": false,
-    "git.ignoreRebaseWarning": true,
-    "tabby.endpoint": "http://localhost:8868",
-    "tabby.config.telemetry": true,
-    "tabby.settings.advanced": {
-        "inlineCompletion.triggerMode": "manual"
-    },
-
-    // New
 
 
 
