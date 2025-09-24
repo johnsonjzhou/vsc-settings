@@ -134,7 +134,7 @@
         "editor.tabSize": 4,
         "editor.defaultFormatter": "ms-python.autopep8",
         "editor.formatOnType": true,
-        "diffEditor.ignoreTrimWhitespace": false,
+        "diffEditor.ignoreTrimWhitespace": true,
     },
     "[json]": {
         "editor.tabSize": 4
@@ -159,63 +159,6 @@
                 "type": "debugpy",
                 "request": "launch",
                 "program": "${file}",
-                "console": "integratedTerminal",
-                "justMyCode": true,
-                "env": {
-                    "PYTHONPATH": "${workspaceFolder}",
-                }
-            },
-            {
-                "name": "Python: pytest (Workspace path)",
-                "type": "debugpy",
-                "request": "launch",
-                "module": "pytest",
-                "console": "integratedTerminal",
-                "justMyCode": true,
-                "env": {
-                    "PYTHONPATH": "${workspaceFolder}",
-                }
-            },
-            {
-                "name": "Python: cl_sdk (sym_cls)",
-                "type": "debugpy",
-                "request": "launch",
-                "module": "corticallabs_examples.symbol_classification",
-                "args": [
-                    "--config",
-                    "config_examples/symbol_classification_demo.toml",
-                    "--output",
-                    "output_examples",
-                    // "--mea-type",
-                    // "culture",
-                    // "--mea-serial-number",
-                    // "11111",
-                    // "--auto-confirm",
-                    "symbol_classification/debugger"
-                ],
-                "console": "integratedTerminal",
-                "justMyCode": true,
-                "env": {
-                    "PYTHONPATH": "${workspaceFolder}",
-                }
-            },
-            {
-                "name": "Python: cl_sdk (ghosting_profiler)",
-                "type": "debugpy",
-                "request": "launch",
-                "module": "corticallabs_examples.internal.ghosting_profiler",
-                "args": [
-                    "--config",
-                    "config_examples/ghosting_profiler.toml",
-                    "--output",
-                    "output_examples",
-                    "--mea-type",
-                    "culture",
-                    "--mea-serial-number",
-                    "11111",
-                    "--auto-confirm",
-                    "ghosting_profiler/debugger"
-                ],
                 "console": "integratedTerminal",
                 "justMyCode": true,
                 "env": {
@@ -330,6 +273,13 @@
           "*.nav",
       ],
     "latex-workshop.message.badbox.show": "none",
+    "terminal.integrated.commandsToSkipShell": [
+        "matlab.interrupt"
+    ],
+    "MATLAB.installPath": "/Applications/MATLAB_R2025b.app",
+    "MATLAB.defaultEditor": true,
+    "MATLAB.telemetry": false,
+    "MATLAB.startDebuggerAutomatically": true,
 
 
 

@@ -14,6 +14,8 @@ enabled:
     uuid: 61d03280-3919-4dd1-bce1-178ca21fdeaf
   - id: johnsonjzhou.flow-theme
     uuid: null
+  - id: MathWorks.language-matlab
+    uuid: a41a2325-daf7-4cf4-beee-6c76190ad9fc
   - id: mechatroner.rainbow-csv
     uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
   - id: mohsen1.prettify-json
