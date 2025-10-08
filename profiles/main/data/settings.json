@@ -39,7 +39,7 @@
         "jsdelivr.com",
         "unpkg.com"
     ],
-    "markdown.preview.fontSize": 18,
+    "markdown.preview.fontSize": 14,
     "notebook.cellFocusIndicator": "border",
     "notebook.cellToolbarLocation": {
         "default": "left"
@@ -57,14 +57,17 @@
     "terminal.integrated.inheritEnv": false,
     "terminal.integrated.lineHeight": 1.1,
     "terminal.integrated.letterSpacing": 1.05,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorWidth": 2,
     "window.autoDetectColorScheme": true,
     "workbench.activityBar.location": "top",
     "workbench.editor.centeredLayoutFixedWidth": true,
     "workbench.editor.empty.hint": "hidden",
     "workbench.editor.tabActionLocation": "left",
-    "workbench.colorTheme": "Flow MacOS Github Dark",
-    "workbench.preferredDarkColorTheme": "Flow MacOS Github Dark",
-    "workbench.preferredLightColorTheme": "Flow MacOS Light Mono Calm",
+    "workbench.colorTheme": "MacOS Github-Dark Catpuccin-Mocha",
+    "workbench.preferredDarkColorTheme": "JohnsonZhou MacOS GithubDark CatpuccinMocha",
+    "workbench.preferredLightColorTheme": "MacOS Github-Dark Catpuccin-Mocha",
     "workbench.iconTheme": null,
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
@@ -148,6 +151,9 @@
     },
     "[restructuredtext]": {
         "files.trimTrailingWhitespace": false
+    },
+    "[matlab]": {
+        "editor.tabSize": 4,
     },
 
     // Launch settings
@@ -273,6 +279,8 @@
           "*.nav",
       ],
     "latex-workshop.message.badbox.show": "none",
+
+    // MATLAB
     "terminal.integrated.commandsToSkipShell": [
         "matlab.interrupt"
     ],
@@ -281,6 +289,26 @@
     "MATLAB.telemetry": false,
     "MATLAB.startDebuggerAutomatically": true,
 
-
-
+    // "workbench.colorCustomizations": {
+    //     "terminal.background":        "#1e1e2e",
+    //     "terminal.foreground":        "#cdd6f4",
+    //     "terminalCursor.background":  "#fab387",
+    //     "terminalCursor.foreground":  "#fab387",
+    //     "terminal.ansiBlack":         "#454759",
+    //     "terminal.ansiBrightBlack":   "#595B70",
+    //     "terminal.ansiWhite":         "#A6ADC8",
+    //     "terminal.ansiBrightWhite":   "#B9C2DE",
+    //     "terminal.ansiBlue":          "#89B4FA",
+    //     "terminal.ansiBrightBlue":    "#73A8FC",
+    //     "terminal.ansiCyan":          "#93E2D5",
+    //     "terminal.ansiBrightCyan":    "#6CD6CA",
+    //     "terminal.ansiGreen":         "#A6E3A1",
+    //     "terminal.ansiBrightGreen":   "#89D88B",
+    //     "terminal.ansiYellow":        "#F9E2AF",
+    //     "terminal.ansiBrightYellow":  "#EBD391",
+    //     "terminal.ansiMagenta":       "#F5C2E7",
+    //     "terminal.ansiBrightMagenta": "#F2AEDE",
+    //     "terminal.ansiRed":           "#F38BA8",
+    //     "terminal.ansiBrightRed":     "#F37799",
+    // },
 }

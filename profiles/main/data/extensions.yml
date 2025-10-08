@@ -6,13 +6,15 @@ enabled:
     uuid: f5a6ecde-96ce-4fde-8744-ab88c7727069
   - id: Continue.continue
     uuid: c8d442ab-9ee3-4891-a5b0-994f14f54c94
+  - id: dbankier.vscode-quick-select
+    uuid: c4fac055-b854-41f0-9610-f8a9d62e9b89
   - id: deibit.devdocs
     uuid: 739d6afd-0fa9-4553-937e-bc61e3a044d1
   - id: GitHub.github-vscode-theme
     uuid: 7328a705-91fc-49e6-8293-da6f112e482d
   - id: James-Yu.latex-workshop
     uuid: 61d03280-3919-4dd1-bce1-178ca21fdeaf
-  - id: johnsonjzhou.flow-theme
+  - id: johnsonjzhou.jz-vsc-theme
     uuid: null
   - id: MathWorks.language-matlab
     uuid: a41a2325-daf7-4cf4-beee-6c76190ad9fc
@@ -20,6 +22,8 @@ enabled:
     uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
   - id: mohsen1.prettify-json
     uuid: 67e66172-30c7-4478-8f5d-6eac4ae755dc
+  - id: ms-azuretools.vscode-containers
+    uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: ms-python.autopep8
     uuid: 5a21b0c3-89ca-46dd-8ada-658518fb94a5
   - id: ms-python.debugpy
